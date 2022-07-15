@@ -1,13 +1,14 @@
 body {
-    background: #f7f7f7;
+    background: black;
     font-family: Helvetica;
     max-width: 900px;
     margin: auto;
 }
 
 .photo {
-    border: 2px solid #505050;
-    border-radius: 50%;
+    border: 4px solid #505050;
+    border-radius: 35%;
+
 }
 
 #title, .subtitle, .post_title {
@@ -50,12 +51,19 @@ body {
     width: 100%;
  }
 
+ .contacts {
+    color: #505050;
+    font-weight: bold;
+ }
+
  .contacts_list {
-    list-style-type: none;
+    list-style-type: square;
     padding-left: 15px;
+    margin: 0;
+    margin-bottom: 15px;
  }
 
  .contacts_list li a {
-    text-decoration: none
+    text-decoration: underline;
 
  }
